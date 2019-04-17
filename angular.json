@@ -26,7 +26,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@nebular/theme/styles/prebuilt/default.css",
+              "src/app/@theme/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -53,7 +55,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MyIonicWebApp:build"
+            "browserTarget": "MyIonicWebApp:build",
+            "port": 7787
           },
           "configurations": {
             "production": {
