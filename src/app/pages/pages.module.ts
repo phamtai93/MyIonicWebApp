@@ -1,6 +1,6 @@
+import { TableDiagramModule } from './management/table-diagram/table-diagram.module';
 import { ThemeModule } from './../@theme/theme.module';
 import { ManagementComponent } from './management/management.component';
-import { ManagementModule } from './management/management.module.tns';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
