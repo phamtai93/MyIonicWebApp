@@ -21,7 +21,7 @@ jobs:
     - stage: build docker image
       script:
       - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      - docker build -t my-ionic-web-app .
+      - docker image build -t my-ionic-web-app .
       - docker images
       - docker tag my-ionic-web-app:latest phamtai/my-first-repo:ionic-web-app
       - docker push $DOCKER_USERNAME/my-first-repo
