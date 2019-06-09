@@ -9,13 +9,13 @@ cache:
 branches:
   only:
   - master
-before_script:
-  - npm install -g @angular/cli
 addons:
   chrome: stable
+before_script:
+  - npm install -g @angular/cli
 script:
-- ng lint
-- ng build --prod
+  - ng lint
+  - ng build --prod
 jobs:
   include:
     - stage: build docker image
