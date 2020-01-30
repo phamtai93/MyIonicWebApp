@@ -55,7 +55,7 @@
     "rxjs": "~6.3.3",
     "socicon": "^3.0.5",
     "tar": "^4.4.8",
-    "tinymce": "^5.0.3",
+    "tinymce": "^5.1.4",
     "tns-core-modules": "~5.2.0",
     "typeface-exo": "0.0.61",
     "zone.js": "^0.8.26"
